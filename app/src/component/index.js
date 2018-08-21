@@ -1,4 +1,4 @@
-// import header from './header'
+import header from './header'
 // import mainDisplay from './mainDisplay'
 // import firstDetail from './firstDetail'
 // import summary from './summary'
@@ -18,4 +18,4 @@ export default {
   // secondDetail,
   // contact,
   // footer
-}
+};
