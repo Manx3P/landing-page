@@ -1,0 +1,39 @@
+{
+  "name": "manx3p-landing",
+  "description": "The API component of manx3p, an application designed to get the user first impression with Manx3p",
+  "version": "0.0.1",
+  "author": "Manx3P",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/Manx3P/landing-page/readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manx3P/landing-page"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "prettier --write src/**/*.js",
+    "precommit": "pretty-quick --staged",
+    "start:debug": "nodemon --exec yarn start --inspect --source-maps inline",
+    "start": "env-cmd .env babel-node src/index.js --silent",
+    "production": "babel --presets env,stage-2 src --out-dir /build"
+  },
+  "dependencies": {
+    "@gp-technical/stack-pack-api": "2.0.0-beta.6",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "le_node": "^1.7.0",
+    "sparkpost": "^2.1.2",
+    "unirest": "^0.5.1",
+    "winston": "2.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.16.0",
+    "env-cmd": "^8.0.0",
+    "nodemon": "^1.17.5"
+  }
+}
