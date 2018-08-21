@@ -6,11 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import { muiTheme } from "./theme";
 import styles from "./index.scss";
 
-const styling = {
-  paddingLeft: "75px",
-  paddingRight: "75px"
-};
-
 class component extends React.PureComponent {
   render() {
     const { user } = this.props;
@@ -18,7 +13,7 @@ class component extends React.PureComponent {
     return (
       <MuiThemeProvider theme={muiTheme}>
         <div>
-          <Grid container style={styling}>
+          <Grid>
             <Grid item className={styles.main} xs={12} sm={12} md={8} lg={12}>
               <components.header />
             </Grid>

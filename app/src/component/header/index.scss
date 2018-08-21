@@ -1,12 +1,59 @@
 .app {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-content: space-between;
+  align-items: center;
+  height: 74px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  background-color: #001a23;
 }
 
 .logo {
-
+  height: 55px;
+  width: 55px;
 }
 
-.contact {
-  
+.emailLabel {
+  height: 36px;
+  width: 137px;
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: right;
+}
+
+.logoGrid {
+  background: blue;
+}
+.emailGrid {
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneGrid {
+  background: red;
+  align-content: flex-end;
+}
+
+.phoneLabel {
+  height: 19px;
+  width: 124px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.separator {
+  height: 2px;
+  width: 120px;
+  border: 3px solid #ffffff;
+  opacity: 0.5;
 }

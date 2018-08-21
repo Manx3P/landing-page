@@ -1,4 +1,4 @@
-import header from './header'
+import header from "./header";
 // import mainDisplay from './mainDisplay'
 // import firstDetail from './firstDetail'
 // import summary from './summary'
