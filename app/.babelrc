@@ -1,0 +1,9 @@
+{
+  "presets": [["env", {"useBuiltIns": true}], "stage-2", "react"],
+  "plugins": ["react-require", "transform-decorators-legacy"],
+  "env": {
+    "start": {
+      "presets": ["react-hmre"]
+    }
+  }
+}
