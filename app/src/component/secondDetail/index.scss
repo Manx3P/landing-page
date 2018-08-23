@@ -1,0 +1,31 @@
+.app {
+  background-color: #FBC52B;
+}
+
+.bg {
+  padding: 25px;
+  background: url('../img/img-quote.png');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size:cover;
+}
+
+.title {
+  height: 88px;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  text-align: center;
+}
+
+.description {
+  height: 27px;
+  color: rgba(0, 0, 0, 0.79);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+}

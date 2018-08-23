@@ -1,0 +1,42 @@
+.bg {
+	height: 320px;
+	background-color: #F8F9FB;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+	height: 98px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 70px;
+	font-weight: 900;
+	line-height: 98px;
+}
+
+.description {
+	height: 58px;
+	color: #9FA3A7;
+	font-family: Montserrat;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.label {
+	height: 26px;
+	color: #6C6C6C;
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.divContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.divContactBottom {
+  display: flex;
+  flex-direction: row;
+}
