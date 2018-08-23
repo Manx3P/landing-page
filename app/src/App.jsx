@@ -16,6 +16,14 @@ class component extends React.PureComponent {
           <Grid>
             <Grid item className={styles.main} xs={12} sm={12} md={8} lg={12}>
               <components.header />
+              <components.mainDisplay />
+              <components.firstDetail />
+              <components.summary />
+              <components.moreInfo />
+              <components.caseStudies />
+              <components.secondDetail />
+              <components.contact />
+              <components.footer />
             </Grid>
           </Grid>
         </div>

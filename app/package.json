@@ -1,8 +1,8 @@
 {
-  "name": "stack-demo-app",
-  "description": "The React application component of stack-demo, an application designed to get you started with the GP stack",
-  "version": "2.0.0-beta.8",
-  "author": "GoodPractice",
+  "name": "manx3p-landing",
+  "description": "The API component of manx3p, an application designed to get the user first impression with Manx3p",
+  "version": "0.0.1",
+  "author": "Manx3p",
   "license": "UNLICENSED",
   "homepage": "https://github.com/Manx3P/landing-page/readme",
   "repository": {
