@@ -1,8 +1,9 @@
-import React from "react";
-import styles from "./index.scss";
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
+import React from "react"
+import styles from "./index.scss"
+import Grid from "@material-ui/core/Grid"
+import Button from "@material-ui/core/Button"
+import TextField from "@material-ui/core/TextField"
+import logoHorizontal from '../img/logo-horizontal.svg'
 
 class component extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class component extends React.Component {
         <Grid item xs={6} sm={6} className={styles.logoGrid}>
           <img
             className={styles.logo}
-            src="https://avatars1.githubusercontent.com/u/42061231?s=260"
+            src={logoHorizontal}
           />
         </Grid>
         <Grid item xs={3} sm={3} className={styles.emailGrid}>
