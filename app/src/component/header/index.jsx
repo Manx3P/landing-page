@@ -16,7 +16,7 @@ class component extends React.Component {
           />
         </Grid>
         <Grid item xs={3} sm={3} className={styles.emailGrid}>
-          <p className={styles.emailLabel}> Do you want we talk with you? </p>
+          <p className={styles.emailLabel}> Let's talk? </p>
           <TextField id="email" placeholder="Your work email" type="text" />
           <Button variant="contained">SEND</Button>
         </Grid>
