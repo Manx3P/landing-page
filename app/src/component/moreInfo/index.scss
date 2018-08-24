@@ -1,4 +1,31 @@
 .bg {
 	height: 400px;
   background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+}
+
+.title {
+	height: 15px;
+	width: 163px;
+	color: #757575;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.subtitle {
+	height: 96px;
+	width: 421px;
+	color: #212121;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.description {
+	height: 268px;
+	width: 407px;
+	color: #9FA3A7;
+	font-size: 14px;
+	line-height: 26px;
 }
