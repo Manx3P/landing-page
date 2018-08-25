@@ -1,7 +1,7 @@
 .title {
   	height: 32px;
   	width: 107px;
-  	color: #212121;
+  	color: var(--black-800);
   	font-size: 22px;
   	line-height: 32px;
 }
@@ -9,7 +9,7 @@
 .description {
 	height: 32px;
 	width: 224px;
-	color: #9FA3A7;
+	color: var(--grey-100);
 	font-size: 14px;
 	line-height: 26px;
 }

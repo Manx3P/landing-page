@@ -12,7 +12,7 @@
 .mainText {
   height: 146px;
 	width: 561px;
-	color: #FFFFFF;
+	color: var(--white);
 	font-size: 60px;
 	font-weight: bold;
 	line-height: 73px;
@@ -21,7 +21,7 @@
 .secondaryText {
   	height: 58px;
   	width: 353px;
-  	color: #FFFFFF;
+  	color: var(--white);
   	font-size: 24px;
   	font-weight: 500;
   	line-height: 29px;

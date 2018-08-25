@@ -1,38 +1,8 @@
-@-webkit-keyframes :global(stripes) {
-  100% {
-    background-position: 0 -50px;
-  }
-}
-
-@keyframes :global(stripes) {
-  100% {
-    background-position: 385px 0;
-  }
-}
-
-:global {
-  .loading {
-    color: red;
-    .material-icons {
-      max-width: 30px;
-      overflow: hidden;
-    }
-
-    * {
-      font-family: 'BLOKK';
-      font-weight: bold;
-      font-size: 16px!important;
-      white-space: nowrap;
-      color: rgb(197, 206, 210)!important;
-      word-spacing: -20px;
-    }
-  }
-
-}
 body {
-	margin: 0;
-	padding: 0;
 	font-family: Montserrat;
+	padding-left: 80px;
+  padding-right: 80px;
+	padding-bottom: 30px;
 	background-color: #001A23;
 	.right {
 		float: right;
@@ -50,4 +20,23 @@ body {
 
 .hidden {
 	display: none!important;
+}
+
+/*
+  Color palette
+*/
+:root {
+	--primary: #001A23;
+	--primary-50: #F8F9FB;
+	--primary-400: #032430;
+	--primary-900: #013446;
+	--secondary: #EE3643;
+	--white : #FFFFFF;
+	--grey: #434350;
+	--grey-50: #E8E9ED;
+	--grey-100: #9FA3A7;
+	--grey-500: #6C6C6C;
+	--grey-800: #757575;
+	--black-800: #212121;
+	--yellow: #FBC52B;
 }

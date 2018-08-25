@@ -1,13 +1,13 @@
 .bg {
 	height: 298px;
-	background-color: #434350;
+	background-color: var(--grey);
   justify-content: center;
 }
 
 .mainText {
 	height: 88px;
 	width: 751px;
-	color: #FFFFFF;
+	color: var(--white);
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 44px;
@@ -18,14 +18,14 @@
 	box-sizing: border-box;
 	height: 3px;
 	width: 1111px;
-	border: 1px solid #FFFFFF;
+	border: 1px solid var(--white);
 	opacity: 0.3;
 }
 
 .secondaryText {
 	height: 48px;
 	width: 659px;
-	color: #FFFFFF;
+	color: var(--white);
 	font-size: 20px;
 	line-height: 24px;
 	text-align: center;

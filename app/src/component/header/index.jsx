@@ -9,19 +9,19 @@ class component extends React.Component {
   render() {
     return (
       <Grid container className={styles.app}>
-        <Grid item xs={6} sm={6} className={styles.logoGrid}>
+        <Grid item xs={5} className={styles.logoGrid}>
           <img
             className={styles.logo}
             src={logoHorizontal}
           />
         </Grid>
-        <Grid item xs={3} sm={3} className={styles.emailGrid}>
+        <Grid item xs={5} className={styles.emailGrid}>
           <p className={styles.emailLabel}> Let's talk? </p>
           <TextField id="email" placeholder="Your work email" type="text" />
           <Button variant="contained">SEND</Button>
         </Grid>
 
-        <Grid item xs={3} sm={3} className={styles.phoneGrid}>
+        <Grid item xs={2} className={styles.phoneGrid}>
           <p className={styles.phoneLabel}> (865) 879-0234 </p>
           <div className={styles.separator} />
         </Grid>

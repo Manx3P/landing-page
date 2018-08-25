@@ -1,12 +1,12 @@
 .bg {
 	height: 720px;
-	background-color: #F8F9FB;
+	background-color: var(--primary-50);
 }
 
 .title {
 	height: 48px;
 	width: 578px;
-	color: #212121;
+	color: var(--black-800);
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
