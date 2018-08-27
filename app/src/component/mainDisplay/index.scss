@@ -1,17 +1,18 @@
 .display {
 	height: 720px;
+	background: url('../img/bg-header.png');
+	background-position: center center;
+	padding-left: var(--padding);
+	padding-right: var(--padding);
 }
 
 .img {
 	height: 705px;
 	opacity: 0.7;
-  display: block;
-  margin: auto;
 }
 
 .mainText {
   height: 146px;
-	width: 561px;
 	color: var(--white);
 	font-size: 60px;
 	font-weight: bold;
@@ -19,10 +20,10 @@
 }
 
 .secondaryText {
-  	height: 58px;
-  	width: 353px;
-  	color: var(--white);
-  	font-size: 24px;
-  	font-weight: 500;
-  	line-height: 29px;
+	height: 58px;
+  width: 353px;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 500;
+	line-height: 29px;
 }

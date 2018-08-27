@@ -1,12 +1,14 @@
 .bg {
 	height: 298px;
 	background-color: var(--grey);
-  justify-content: center;
+	display: flex;
+  align-items: center;
+	flex-direction: column;
+	padding-left: var(--padding);
+	padding-right: var(--padding);
 }
 
 .mainText {
-	height: 88px;
-	width: 751px;
 	color: var(--white);
 	font-size: 36px;
 	font-weight: bold;
@@ -16,15 +18,12 @@
 
 .divider {
 	box-sizing: border-box;
-	height: 3px;
-	width: 1111px;
-	border: 1px solid var(--white);
+	width: 100%;
+	border-bottom: 1px solid var(--white);
 	opacity: 0.3;
 }
 
 .secondaryText {
-	height: 48px;
-	width: 659px;
 	color: var(--white);
 	font-size: 20px;
 	line-height: 24px;

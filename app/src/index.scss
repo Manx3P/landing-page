@@ -1,21 +1,6 @@
 body {
 	font-family: Montserrat;
-	padding-left: 80px;
-  padding-right: 80px;
-	padding-bottom: 30px;
 	background-color: #001A23;
-	.right {
-		float: right;
-	}
-	.left{
-		float: left;
-	}
-	.clearfix {
-		clear: both;
-	}
-	.main {
-		margin-top: 0px;
-	}
 }
 
 .hidden {
@@ -24,6 +9,7 @@ body {
 
 /*
   Color palette
+	Main sizes
 */
 :root {
 	--primary: #001A23;
@@ -39,4 +25,5 @@ body {
 	--grey-800: #757575;
 	--black-800: #212121;
 	--yellow: #FBC52B;
+	--padding: 80px;
 }

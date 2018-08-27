@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: row;
   height: 78px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: var(--primary-400);
 }
@@ -23,35 +25,48 @@
 }
 
 .logoGrid {
-  background: #FF0000;
-  height: 10%;
+  display: flex;
+  align-items: center;
 }
 
 .emailGrid {
   display: flex;
   flex-direction: row;
-  height: 10%;
-  background: #00FF00;
 }
 
 .phoneGrid {
-  align-content: flex-end;
-  height: 10%;
-  background: #0000FF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phoneDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
 }
 
 .phoneLabel {
   height: 19px;
-  width: 124px;
+  width: 100%;
   color: var(--white);
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
 }
 
+.verticalSeparator {
+  box-sizing: border-box;
+  height: 30px;
+  width: 3px;
+  margin-right: 25px;
+  border-left: 1px outset #FFFFFF;
+  opacity: 0.3;
+}
+
 .separator {
-  height: 2px;
-  width: 120px;
-  border: 3px solid var(--white);
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 1px solid var(--white);
   opacity: 0.5;
 }

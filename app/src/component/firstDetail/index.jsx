@@ -6,13 +6,11 @@ class firstDetail extends React.Component {
     return (
       <div className={styles.bg}>
         <p className={styles.mainText}>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium
+          We win - You win
         </p>
         <div className={styles.divider} />
         <p className={styles.secondaryText}>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit
+          Your partner in fulfilment
         </p>
       </div>
     );

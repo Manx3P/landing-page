@@ -2,7 +2,8 @@ import React from "react"
 import styles from "./index.scss"
 import Grid from "@material-ui/core/Grid"
 import Button from "@material-ui/core/Button"
-import TextField from "@material-ui/core/TextField"
+import phone from '../img/ic-central-phone.svg'
+import Input from "@material-ui/core/Input"
 import logoHorizontal from '../img/logo-horizontal.svg'
 
 class component extends React.Component {
@@ -16,14 +17,18 @@ class component extends React.Component {
           />
         </Grid>
         <Grid item xs={5} className={styles.emailGrid}>
-          <p className={styles.emailLabel}> Let's talk? </p>
-          <TextField id="email" placeholder="Your work email" type="text" />
+          <p className={styles.emailLabel}> Open communication </p>
+          <Input id="email" placeholder="Your work email" type="text" />
           <Button variant="contained">SEND</Button>
         </Grid>
 
         <Grid item xs={2} className={styles.phoneGrid}>
-          <p className={styles.phoneLabel}> (865) 879-0234 </p>
-          <div className={styles.separator} />
+          <div className={styles.verticalSeparator}/>
+          <img src={phone}/>
+          <div className={styles.phoneDiv}>
+            <p className={styles.phoneLabel}> +44 33 00 577 447 </p>
+            <div className={styles.separator} />
+          </div>
         </Grid>
       </Grid>
     );
